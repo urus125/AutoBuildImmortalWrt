@@ -8,6 +8,10 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 
 
 # 定义所需安装的包列表
+PACKAGES="taskd_1.0.3-2_all"
+PACKAGES="luci-lib-xterm_4.18.0_all"
+PACKAGES="luci-lib-taskd_1.0.22_all"
+PACKAGES="luci-app-store_0.1.27-4_all"
 PACKAGES="luci-app-adblock"
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
